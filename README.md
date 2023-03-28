@@ -32,9 +32,16 @@ Guides in `Script Controlled Sprite Sorting`:
 
 ### [JSON Dialogue System](./guides/json-dialogue-system/)
 
-
+For the purpose of a Unity dialogue system, you might need to store more data than just the to-be-rendered text. For instance, my project will have a number of text box shapes appropriate to the length of dialogue. Additionally, it's helpful to store animation data for the involved characters alongside the needed text. Therefor storing text in a JSON is a very efficient and readable way to store large amounts of dialogue, and with a few clever work arounds it's a surprisingly flexible method.
 
 Guides in `JSON Dialogue System`:
 - [NPC Interaction](./guides/json-dialogue-system/npc-interaction.md)
 - [JSON Parsing](./guides/json-dialogue-system//json-parsing.md)
 - [Embedding Special Insturctions](./guides/json-dialogue-system/embedding-special-instructions.md)
+
+### [Game Manager](./guides/game-manager/)
+
+
+
+Guides in `Game Manager`:
+- [Scene Persistance](./guides/game-manager/scene-persistance.md)
