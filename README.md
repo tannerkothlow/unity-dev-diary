@@ -20,3 +20,10 @@ Guides in `Top Down 3D Collision in 2D`:
 - [Breaking Down The Problem](./guides/top-down-3D-collision/breaking-down-the-problem.md)
 - [Player Character](./guides/top-down-3D-collision/player-character.md)
 - [Adaptive Colliders](./guides/top-down-3D-collision/adaptive-colliders.md)
+
+### [Script Controlled Sprite Sorting](./guides/script-controlled-sprite-sorting/)
+
+Despite Unity's fairly workable sprite systems, something that will always be frustratingly impersice is the baked in method of sorting single sprites tilemap chunks based on a loosely defined pivot point. With a script that's easy to both write and integrate, we can greatly improve the consistancy of our sprite organization.
+
+Guides in `Script Controlled Sprite Sorting`:
+- [Sprite Sorting](./guides/script-controlled-sprite-sorting/sprite-sorting.md)
