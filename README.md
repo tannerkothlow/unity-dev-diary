@@ -41,7 +41,7 @@ Guides in `JSON Dialogue System`:
 
 ### [Game Manager](./guides/game-manager/)
 
-
+When transitioning between scenes in Unity, it wouldn't make sense to constantly despawn and respawn elements like the player character and HUD. Thanks in large part to the DontDestoryOnLoad method, persistant data across scenes is fairly simple to implement. Alongside a Game Manager object to hold methods for RPG battles, player state changes, and a HUD, you can truly begin to evolve from a tech demo to a crafted game world.
 
 Guides in `Game Manager`:
 - [Scene Persistance](./guides/game-manager/scene-persistance.md)
