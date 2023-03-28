@@ -1,8 +1,10 @@
-# Unity 2D Project Dev Diary and Guides
+# Unity 2D Dev Log and Guides
 
 ## Overview
 
 This repo will serve as a way to document and share solutions I've found while working on a top-down RPG project in Unity.
+
+Do note that this series of guides is a constant work in progress, so if some componants are incomplete, know they will be filled in relatively soon!
 
 ## [Guides](./guides/)
 
@@ -27,3 +29,12 @@ Despite Unity's fairly workable sprite systems, something that will always be fr
 
 Guides in `Script Controlled Sprite Sorting`:
 - [Sprite Sorting](./guides/script-controlled-sprite-sorting/sprite-sorting.md)
+
+### [JSON Dialogue System](./guides/json-dialogue-system/)
+
+
+
+Guides in `JSON Dialogue System`:
+- [NPC Interaction](./guides/json-dialogue-system/npc-interaction.md)
+- [JSON Parsing](./guides/json-dialogue-system//json-parsing.md)
+- [Embedding Special Insturctions](./guides/json-dialogue-system/embedding-special-instructions.md)
