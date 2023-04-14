@@ -19,29 +19,29 @@ Finally, assets referenced in the guides may be made availible in the accomponyi
 What I mean by this is something along the lines of the *Mario and Luigi* series of RPG's where you traverse a 2D world in a top down view and stil have some form of simulated height. These guides will go over the general theory of what a platform *is* in terms of a game engine, and how we can apply that logic to a series of scripts that both control what collisions effect the player at a specified Z height, and sell the idea that we're truly moving in a 3D space by manipulating our player object.
 
 Guides in `Top Down 3D Collision in 2D`:
-- [Breaking Down The Problem](./guides/top-down-3D-collision/breaking-down-the-problem.md)
-- [Player Character](./guides/top-down-3D-collision/player-character.md)
-- [Adaptive Colliders](./guides/top-down-3D-collision/adaptive-colliders.md)
+- [Breaking Down The Problem](./guides/top-down-3D-collision/breaking-down-the-problem.md) 
+- [Player Character](./guides/top-down-3D-collision/player-character.md) *Coming Soon!*
+- [Adaptive Colliders](./guides/top-down-3D-collision/adaptive-colliders.md) *Coming Soon!*
 
 ### [Script Controlled Sprite Sorting](./guides/script-controlled-sprite-sorting/)
 
 Despite Unity's fairly workable sprite systems, something that will always be frustratingly impersice is the baked in method of sorting single sprites tilemap chunks based on a loosely defined pivot point. With a script that's easy to both write and integrate, we can greatly improve the consistancy of our sprite organization.
 
 Guides in `Script Controlled Sprite Sorting`:
-- [Sprite Sorting](./guides/script-controlled-sprite-sorting/sprite-sorting.md)
+- [Sprite Sorting](./guides/script-controlled-sprite-sorting/sprite-sorting.md) *Coming Soon!*
 
 ### [JSON Dialogue System](./guides/json-dialogue-system/)
 
 For the purpose of a Unity dialogue system, you might need to store more data than just the to-be-rendered text. For instance, my project will have a number of text box shapes appropriate to the length of dialogue. Additionally, it's helpful to store animation data for the involved characters alongside the needed text. Therefor storing text in a JSON is a very efficient and readable way to store large amounts of dialogue, and with a few clever work arounds it's a surprisingly flexible method.
 
 Guides in `JSON Dialogue System`:
-- [NPC Interaction](./guides/json-dialogue-system/npc-interaction.md)
-- [JSON Parsing](./guides/json-dialogue-system//json-parsing.md)
-- [Embedding Special Insturctions](./guides/json-dialogue-system/embedding-special-instructions.md)
+- [NPC Interaction](./guides/json-dialogue-system/npc-interaction.md) *Coming Soon!*
+- [JSON Parsing](./guides/json-dialogue-system//json-parsing.md) *Coming Soon!*
+- [Embedding Special Insturctions](./guides/json-dialogue-system/embedding-special-instructions.md) *Coming Soon!*
 
 ### [Game Manager](./guides/game-manager/)
 
 When transitioning between scenes in Unity, it wouldn't make sense to constantly despawn and respawn elements like the player character and HUD. Thanks in large part to the DontDestoryOnLoad method, persistant data across scenes is fairly simple to implement. Alongside a Game Manager object to hold methods for RPG battles, player state changes, and a HUD, you can truly begin to evolve from a tech demo to a crafted game world.
 
 Guides in `Game Manager`:
-- [Scene Persistance](./guides/game-manager/scene-persistance.md)
+- [Scene Persistance](./guides/game-manager/scene-persistance.md) *Coming Soon!*
