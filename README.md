@@ -6,6 +6,8 @@ This repo will serve as a way to document and share solutions I've found while w
 
 Do note that this series of guides is a constant work in progress, so if some componants are incomplete, know they will be filled in relatively soon!
 
+*View the most recent Dev Log Here: [Dev Log 1: The Two Month Mark](https://drive.google.com/file/d/1mjTNY5_GscEU3kTTi2KCqWWimnX81dzA/view?usp=sharing)*
+
 ## [Guides](./guides/)
 
 This repo will contain a number of loose guides that broadly cover a number of objectives, such as how to simulate Z height in a 2D game, how to parse JSON objects as dialoge, and using prefabs for efficient workflow. These are not meant to be full comprehensive guides and instead highlight a use I have personally found for them. 
