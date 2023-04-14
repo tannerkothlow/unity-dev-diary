@@ -1,6 +1,6 @@
 # Breaking Down The Problem
 
-Unity being the flexible engine it is, it can function both as a 3D engine and as a 2D one. A number of concessions must be made depending on whichever one you pick. With 3D games, assets and eviroments generally require more work to both function properly and look appealing, while 2D games lend themselves more towards certain genres that indie devs find easier to develop for.
+Unity being the flexible engine it is, it can function both as a 3D engine and as a 2D one. A number of concessions must be made depending on whichever one you pick. With 3D games, assets and evironments generally require more work to both function properly and look appealing, while 2D games lend themselves more towards certain genres that indie devs find easier to develop for.
 
 But just because a project is 2D doesn't mean the third axis has to be completely thrown out, we can simulate our very own Z axis through the use of some clever coding, a specialized character object, and responsive colliders.
 
@@ -14,7 +14,7 @@ Obviously we can't just walk up onto the platform, so it can remain solid for no
 
 ![player-jump](../../assets/images/bdtp2.PNG)
 
-That's great, but in our current context *our platform does not know if we jumped up to it, or simply had a higher Y value*. Remember, our game is from a top down perspective, just like a *Final Fantasy* RPG or *The Legend of Zelda*. The game engine does not inherintly know when we're truly "above" a platform.
+That's great, but in our current context *our platform does not know if we jumped up to it, or simply had a higher Y value*. Remember, our game is from a top down perspective, just like a *Final Fantasy* RPG or *The Legend of Zelda*. The game engine does not inherently know when we're truly "above" a platform.
 
 ![player-perspective](../../assets/images/bdtp3.PNG)
 
@@ -34,13 +34,13 @@ It helps to think about how you'd mount a raised platform in real life. If you j
 
 ![player-floor](../../assets/images/bdtp6.PNG)
 
-This seems awfully long winded but it's necesary to break down any sort of coding problem like this. Remember, Unity isn't going to do all of this for you, there's no magical "make platform" button that's going to know the exact context and function you want it to have. *You* have to put it in context.
+This seems awfully long winded but it's necessary to break down any sort of coding problem like this. Remember, Unity isn't going to do all of this for you, there's no magical "make platform" button that's going to know the exact context and function you want it to have. *You* have to put it in context.
 
 ## Edge Cases That Will Cause Headaches Later
 
 A few questions to keep in mind before we move onto actually coding and assembling our game objects:
 
-- How will we handle multi tiered platforms?
+- How will we handle multi-tiered platforms?
 
 - What happens when we try to jump onto more than one platform? Which one should we land on, and should we even be able to land on them?
 
