@@ -8,19 +8,19 @@ But just because a project is 2D doesn't mean the third axis has to be completel
 
 Say we have a simple player object standing next to a raised platform. 
 
-[img standing next to platform]
+![player-platform](../../assets/images/bdtp1.PNG)
 
 Obviously we can't just walk up onto the platform, so it can remain solid for now. However if we jump up above that platform, it should allow us to step up onto that platform.
 
-[img of jump]
+![player-jump](../../assets/images/bdtp2.PNG)
 
-That's great, but in our current context *our platform does not know if we jumped up to it, or simply had a higher Y value* remember, our game is from a top down perspective, just like a *Final Fantasy* RPG or *The Legend of Zelda*. The game engine does not inherintly know when we're truly "above" a platform.
+That's great, but in our current context *our platform does not know if we jumped up to it, or simply had a higher Y value*. Remember, our game is from a top down perspective, just like a *Final Fantasy* RPG or *The Legend of Zelda*. The game engine does not inherintly know when we're truly "above" a platform.
 
-[img standing above object]
+![player-perspective](../../assets/images/bdtp3.PNG)
 
 We can remedy this by splitting our character object into two distinct objects, a `grounded shadow` object, and a `playermodel` child object. Now when we jump, our *true* height can be expressed by the distance between the playermodel and the grounded object.
 
-[img describing height]
+![player-height](../../assets/images/bdtp4.PNG)
 
 So to summarize: we should only be able to jump onto the platform if this simulated height is high enough.
 
@@ -30,9 +30,9 @@ Great! So now we know that our player should be a shadow that tracks along the g
 
 It helps to think about how you'd mount a raised platform in real life. If you just try walking into the platform what happens? Well obviously it's a solid object that you can't pass through, you need to *gain the height* needed to go up and onto it. Once you're on top of the object *your current height* is great enough that the walls no longer effect you, but there is the danger of falling off. But as long as you're on *the new floor* you've found yourself on, you won't fall. When you decide to get off you *leave that floor* and drop down to your previous height, and that *floor* is now a *wall*.
 
-[img showing when youre pushing against an object]
+![player-wall](../../assets/images/bdtp5.PNG)
 
-[img showing when youre on top an object and falling]
+![player-floor](../../assets/images/bdtp6.PNG)
 
 This seems awfully long winded but it's necesary to break down any sort of coding problem like this. Remember, Unity isn't going to do all of this for you, there's no magical "make platform" button that's going to know the exact context and function you want it to have. *You* have to put it in context.
 
